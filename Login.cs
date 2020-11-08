@@ -18,7 +18,7 @@ namespace colourManagement
         //panel move mouse handler
         public const int WM_NCLBUTTONDOWN = 0xa1;
         public const int HT_CAPTION = 0x2;
-        [DllImportAttribute("user32.dll")]
+        [DllImportAttribute(" user32.dll")]
         public static extern int SendMessage(IntPtr hwnd, int msg, int wParm, int Ipram);
         [DllImportAttribute("user32.dll")]
         public static extern bool ReleaseCapture();
