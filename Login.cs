@@ -23,11 +23,7 @@ namespace colourManagement
         [DllImportAttribute("user32.dll")]
         public static extern bool ReleaseCapture();
 
-        public Login()
-        {
-            InitializeComponent();
-        }
-
+       
        
         
 
@@ -84,7 +80,7 @@ namespace colourManagement
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Application.Exit( );
         }
     }
 }
