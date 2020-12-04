@@ -23,7 +23,11 @@ namespace colourManagement
         [DllImportAttribute("user32.dll")]
         public static extern bool ReleaseCapture();
 
-       
+        public Login()
+        {
+            InitializeComponent();
+        }
+
        
         
 
