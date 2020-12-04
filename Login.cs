@@ -62,10 +62,7 @@ namespace colourManagement
                     MessageBox.Show("Username or Password is incorrect");
                 }
             }
-            catch (Exception e01)
-            {
-                MessageBox.Show("ERROR!" + e01);
-            }
+           
         }
 
         private void pnlMove_Paint(object sender, PaintEventArgs e)
