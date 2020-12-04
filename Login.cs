@@ -6,9 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.Data.SqlClient;
-using System.Runtime.InteropServices;
+
 
 
 namespace colourManagement
