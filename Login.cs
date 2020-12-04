@@ -13,7 +13,7 @@ using System.Runtime.InteropServices;
 
 namespace colourManagement
 {
-    public partial class Login : Form
+  
     {
         //panel move mouse handler
         public const int WM_NCLBUTTONDOWN = 0xa1;
